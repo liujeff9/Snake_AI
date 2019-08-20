@@ -81,7 +81,7 @@ def create_graph(scores, counter_list):
     plt.xlabel('Generation')
     plt.ylabel('Score')
     plt.title('Score at Each Generation')
-    plt.savefig('results.png', dpi=1000)
+    plt.savefig('results.png', dpi = 300)
     plt.show()
 
 
